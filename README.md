@@ -1,6 +1,8 @@
 # Perceptron_pypi
 OneNeuron | Perceptron package
 
+This is only for showing how perceptron works you can try with and and or gate data.
+
 # How to use it
 
 ```python
