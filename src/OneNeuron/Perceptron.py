@@ -24,7 +24,7 @@ class Perceptron:
     for epoch in tqdm(range(self.epochs), total=self.epochs, desc="training the model"):
       logging.info("--"*10)
       logging.info(f"for epoch: {epoch}")
-      logging.info("--"*10)
+      logging.info("---"*10)
 
       y_hat = self.activationFunction(X_with_bias, self.weights) # foward propagation
       logging.info(f"predicted value after forward pass: \n{y_hat}")
